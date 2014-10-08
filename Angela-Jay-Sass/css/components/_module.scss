@@ -1,48 +1,47 @@
 /* Module */
 
-.mainNav {
+.site-nav {
   border-top: 4px solid black;
 }
-
-
-.inlineNavBar li {
-  display: inline-block;
-  font-size: 2em;
-  margin-right: 2em;
+.by-line {
+  font-size: 1.3em;
+  color: #ddd;
+  margin-left: 10px;
 }
-
+.inline-navbar {
+  list-style: none;
+  li {
+    display: inline-block;
+    font-size: 2em;
+    margin-right: 2em;
+  }
+}
 .feature__mainImage {
   width: 100%;
   margin: 0px;
   border: 1px solid black;
 }
-
 .feature__title {
   font-weight: bold;
   font-size: 2em;
   margin: 10px 6px 8px 12px;
 }
-
 .feature__teaser {
   margin: 0px 6px 8px 12px;
 }
-
-.otherArticle {
+.aside-post {
   width: 100%;
   border-bottom: 1px solid gray;
   margin-left: 10px;
 }
-
-.otherArticle__title {
+.aside-post__title {
   text-transform: uppercase;
   color: red;
 }
-
-.otherArticle__author {
+.aside-post__author {
   font-size: 1.6em;
-
 }
-/* Over-qualified selectors/removed h1, h2 and added __title __author/moved margin to .otherArticle */
+/* Over-qualified selectors/removed h1, h2 and added __title __author/moved margin to .aside-post */
 
 .footerNav {
   text-align: center;
@@ -51,4 +50,3 @@
   font-size: .5em;
 }
 /* Over-qualified/removed .footerNav transferred color and font-size to .footerNav */
-

@@ -1,8 +1,6 @@
 /* Base */
 
-
-
-html{
+html {
   background-color: #FFF;
   color: black;
   margin: 0 auto;
@@ -10,23 +8,13 @@ html{
   font-family: Arial, sans-serif;
   font-size: 1em;
 }
-
-p{
+p {
   font-family: Times;
   /* Removed font-size: 1em - inherited from html selector */
 }
 
-.byLine{
-  font-size: 1.3em;
-  color: darkgrey;
-  margin-left: 10px;
+.hidden {
+  display: none;
 }
 
-.hidden{
-  display:none;
-}
-
-.inlineNavBar{
-  list-style: none;
-}
 /* Moved display: and font-size: to base from .inlineNavBar li/ changed font size 1em */
