@@ -80,10 +80,14 @@ a {
   padding: 1rem 0 .5rem 0; }
 
 .bkg-color {
-  background-color: #F8F4C7; }
+  background-image: url(../fabric_plaid.png);
+  background-color: #F8F4C7;
+  background-blend-mode: multiply; }
 
 .bkg-color-feature-2 {
-  background-color: #E3D0A6; }
+  background-image: url(../fabric_plaid.png);
+  background-color: #E3D0A6;
+  background-blend-mode: multiply; }
 
 .wrapper {
   background-color: white; }
