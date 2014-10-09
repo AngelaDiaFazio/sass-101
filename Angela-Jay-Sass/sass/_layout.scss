@@ -1,20 +1,15 @@
 /* Layout */
 
-.bkg-color {
-  background-color: $body-light;
+header {
+  padding: 12px;
+  text-align: left;
+  background-color: $secondary-color;
+  margin-bottom: 5rem;
 }
-.bkg-color-feature-2 {
-  background-color: $body-dark;
-  // border: 1px solid red;
-}
-.site-nav {
-  // border-top: 4px solid $tertiary-color;
-}
-.by-line {
-  font-size: 1.3em;
+.main-title {
+  font-family: $font-base;
+  font-size: 6em;
   color: $tertiary-color;
-  margin-left: 10px;
-  @extend %aside-padding;
 }
 .inline-navbar {
   list-style: none;
@@ -24,29 +19,13 @@
     margin-right: 2em;
   }
 }
-%aside-padding {
-  padding-top: 1rem;
-}
-a {
-  color: $primary-color;
-}
-header {
-  padding: 12px;
-  text-align: left;
-  background-color: $secondary-color;
-  margin-bottom: 5rem;
-}
-footer {
-  height: 100px;
-  width: 100%;
-  background-color: $secondary-color;
-  color: $base-font-light-color;
+.navbar__subtitle {
+  color: $tertiary-color;
+  font-size: 2rem;
+  font-family: $font-stack;
 }
 .upper-padding {
   padding-top: 5rem;
-}
-.wrapper {
-  background-color: white;
 }
 .footer-nav {
   text-align: center;
@@ -54,11 +33,9 @@ footer {
   color: $base-font-light-color;
   font-size: .7em;
 }
-// mixins
-@mixin spacer() {
-  padding: 5px 0 15px 0;
-}
-.navbar__subtitle {
-  color: $tertiary-color;
-  font-size: 3.5rem;
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: $secondary-color;
+  color: $base-font-light-color;
 }
