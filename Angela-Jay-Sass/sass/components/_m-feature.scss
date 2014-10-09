@@ -1,9 +1,9 @@
 /* Module */
 
 .feature__main-image {
-  width: 100%;
+  width: 98%;
   margin: 0px;
-  border: 1px solid black;
+  border: 5px solid white;
 }
 .feature__title {
   font-weight: bold;
@@ -12,10 +12,12 @@
 }
 .feature__teaser {
   margin: 0px 6px 8px 12px;
+  p & {
+  margin-bottom: 5rem;
+  }
 }
-
-
-/* Over-qualified selectors/removed h1, h2 and added __title __author/moved margin to .aside-post */
-
-
-/* Over-qualified/removed .footerNav transferred color and font-size to .footerNav */
+.border-shadow {
+  -moz-box-shadow:    0px 0px 1px 3px $tertiary-color;
+  -webkit-box-shadow: 0px 0px 1px 3px $tertiary-color;
+  box-shadow:         0px 0px 1px 3px $tertiary-color;
+}

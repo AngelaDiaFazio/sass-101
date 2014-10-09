@@ -9,7 +9,15 @@ html {
 }
 p {
   font-family: $font-base;
+  color: $tertiary-color;
+  font-size: 1.2rem;
 }
+h1 .main-title {
+  font-family: $font-stack;
+  font-size: 6em;
+  color: $tertiary-color;
+}
+
 .hidden {
   display: none;
 }
