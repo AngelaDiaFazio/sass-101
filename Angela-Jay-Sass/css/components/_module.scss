@@ -29,18 +29,8 @@
 .feature__teaser {
   margin: 0px 6px 8px 12px;
 }
-.aside-post {
-  width: 100%;
-  border-bottom: 1px solid gray;
-  margin-left: 10px;
-}
-.aside-post__title {
-  text-transform: uppercase;
-  color: red;
-}
-.aside-post__author {
-  font-size: 1.6em;
-}
+
+
 /* Over-qualified selectors/removed h1, h2 and added __title __author/moved margin to .aside-post */
 
 .footerNav {

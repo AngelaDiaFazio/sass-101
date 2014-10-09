@@ -1,1 +1,13 @@
 
+.aside-post {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  margin-left: 10px;
+}
+.aside-post__title {
+  text-transform: uppercase;
+  color: red;
+}
+.aside-post__author {
+  font-size: 1.6em;
+}

@@ -1,4 +1,11 @@
 /* Layout */
+.bkg-color {
+  color: $body-light;
+}
+
+.bkg-color-feature-2 {
+  color: $body-dark;
+}
 
 header {
   width: 100%;
@@ -20,5 +27,13 @@ footer {
   width: 100%;
   background-color: darkgray;
   clear: both;
+}
+
+.wrapper-right {
+  float: right;
+}
+
+.wrapper-left {
+  float: left;
 }
 /* moved text-align from .footnav */

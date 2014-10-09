@@ -1,13 +1,7 @@
-h1 {
-  font: 100% Helvetica, sans-serif;
-  color: #2EE0AE; }
-  h1 p {
-    color: #C7E2C3; }
-
 /* Base */
 html {
   background-color: #FFF;
-  color: blue;
+  color: black;
   margin: 0 auto;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -22,12 +16,6 @@ p {
 
 /* Moved display: and font-size: to base from .inlineNavBar li/ changed font size 1em */
 /* Layout */
-.bkg-color {
-  color: #F8F4C7; }
-
-.bkg-color-feature-2 {
-  color: #E3D0A6; }
-
 header {
   width: 100%;
   padding: 12px; }
@@ -48,12 +36,6 @@ footer {
   width: 100%;
   background-color: darkgray;
   clear: both; }
-
-.wrapper-right {
-  float: right; }
-
-.wrapper-left {
-  float: left; }
 
 /* moved text-align from .footnav */
 /* Module */
@@ -85,14 +67,6 @@ footer {
 .feature__teaser {
   margin: 0px 6px 8px 12px; }
 
-/* Over-qualified selectors/removed h1, h2 and added __title __author/moved margin to .aside-post */
-.footerNav {
-  text-align: center;
-  padding-top: 10px;
-  color: #FFF;
-  font-size: .5em; }
-
-/* Over-qualified/removed .footerNav transferred color and font-size to .footerNav */
 .aside-post {
   width: 100%;
   border-bottom: 1px solid gray;
@@ -105,4 +79,13 @@ footer {
 .aside-post__author {
   font-size: 1.6em; }
 
-/*# sourceMappingURL=app.css.map */
+/* Over-qualified selectors/removed h1, h2 and added __title __author/moved margin to .aside-post */
+.footerNav {
+  text-align: center;
+  padding-top: 10px;
+  color: #FFF;
+  font-size: .5em; }
+
+/* Over-qualified/removed .footerNav transferred color and font-size to .footerNav */
+
+/*# sourceMappingURL=style.css.map */
