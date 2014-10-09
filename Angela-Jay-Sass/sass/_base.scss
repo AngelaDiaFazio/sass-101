@@ -1,20 +1,15 @@
 /* Base */
 
 html {
-  background-color: #FFF;
-  color: blue;
+  color: $base-font-dark-color;
   margin: 0 auto;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: $font-stack;
   font-size: 1em;
 }
 p {
-  font-family: Times;
-  /* Removed font-size: 1em - inherited from html selector */
+  font-family: $font-base;
 }
-
 .hidden {
   display: none;
 }
-
-/* Moved display: and font-size: to base from .inlineNavBar li/ changed font size 1em */

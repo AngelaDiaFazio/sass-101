@@ -1,12 +1,30 @@
 /* Layout */
+
 .bkg-color {
   background-color: $body-light;
 }
-
 .bkg-color-feature-2 {
   background-color: $body-dark;
+  width: 100%;
+  height: inherit;
+  margin-top: 5rem;
 }
-
+.site-nav {
+  border-top: 4px solid $tertiary-color;
+}
+.by-line {
+  font-size: 1.3em;
+  color: $tertiary-color;
+  margin-left: 10px;
+}
+.inline-navbar {
+  list-style: none;
+  li {
+    display: inline-block;
+    font-size: 2em;
+    margin-right: 2em;
+  }
+}
 header {
   width: 100%;
   padding: 12px;
@@ -25,15 +43,22 @@ aside {
 footer {
   height: 100px;
   width: 100%;
-  background-color: darkgray;
+  background-color: $secondary-color;
+  color: $base-font-light-color;
   clear: both;
 }
-
+.clear {
+  clear: both;
+}
 .wrapper-right {
   float: right;
 }
-
 .wrapper-left {
   float: left;
 }
-/* moved text-align from .footnav */
+.footer-nav {
+  text-align: center;
+  padding-top: 10px;
+  color: $base-font-light-color;
+  font-size: .5em;
+}

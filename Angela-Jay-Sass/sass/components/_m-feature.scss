@@ -1,21 +1,5 @@
 /* Module */
 
-.site-nav {
-  border-top: 4px solid black;
-}
-.by-line {
-  font-size: 1.3em;
-  color: #ddd;
-  margin-left: 10px;
-}
-.inline-navbar {
-  list-style: none;
-  li {
-    display: inline-block;
-    font-size: 2em;
-    margin-right: 2em;
-  }
-}
 .feature__main-image {
   width: 100%;
   margin: 0px;
@@ -33,10 +17,5 @@
 
 /* Over-qualified selectors/removed h1, h2 and added __title __author/moved margin to .aside-post */
 
-.footer-nav {
-  text-align: center;
-  padding-top: 10px;
-  color: #FFF;
-  font-size: .5em;
-}
+
 /* Over-qualified/removed .footerNav transferred color and font-size to .footerNav */

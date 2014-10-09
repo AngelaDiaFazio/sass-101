@@ -1,12 +1,12 @@
 
 .aside-post {
   width: 100%;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid $base-font-dark-color;
   margin-left: 10px;
 }
 .aside-post__title {
   text-transform: uppercase;
-  color: red;
+  color: $secondary-color;
 }
 .aside-post__author {
   font-size: 1.6em;

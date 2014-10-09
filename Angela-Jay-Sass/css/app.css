@@ -1,32 +1,48 @@
-h1 {
-  font: 100% Helvetica, sans-serif;
-  color: #2EE0AE; }
-  h1 p {
-    color: #C7E2C3; }
-
 /* Base */
 html {
-  background-color: #FFF;
-  color: blue;
+  color: #434545;
   margin: 0 auto;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 1em; }
 
 p {
-  font-family: Times;
-  /* Removed font-size: 1em - inherited from html selector */ }
+  font-family: Georgia, serif; }
 
 .hidden {
   display: none; }
 
-/* Moved display: and font-size: to base from .inlineNavBar li/ changed font size 1em */
+h1 {
+  font: 100% Helvetica, sans-serif;
+  color: #2EE0AE; }
+  h1 p {
+    color: #434545;
+    font-family: Georgia, serif; }
+
 /* Layout */
 .bkg-color {
   background-color: #F8F4C7; }
 
 .bkg-color-feature-2 {
-  background-color: #E3D0A6; }
+  background-color: #E3D0A6;
+  width: 100%;
+  height: inherit;
+  margin-top: 5rem; }
+
+.site-nav {
+  border-top: 4px solid #664C4B; }
+
+.by-line {
+  font-size: 1.3em;
+  color: #664C4B;
+  margin-left: 10px; }
+
+.inline-navbar {
+  list-style: none; }
+  .inline-navbar li {
+    display: inline-block;
+    font-size: 2em;
+    margin-right: 2em; }
 
 header {
   width: 100%;
@@ -46,7 +62,11 @@ aside {
 footer {
   height: 100px;
   width: 100%;
-  background-color: darkgray;
+  background-color: #C7E2C3;
+  color: #FAFEFF;
+  clear: both; }
+
+.clear {
   clear: both; }
 
 .wrapper-right {
@@ -55,35 +75,25 @@ footer {
 .wrapper-left {
   float: left; }
 
-/* moved text-align from .footnav */
+.footer-nav {
+  text-align: center;
+  padding-top: 10px;
+  color: #FAFEFF;
+  font-size: .5em; }
+
 .aside-post {
   width: 100%;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #434545;
   margin-left: 10px; }
 
 .aside-post__title {
   text-transform: uppercase;
-  color: red; }
+  color: #C7E2C3; }
 
 .aside-post__author {
   font-size: 1.6em; }
 
 /* Module */
-.site-nav {
-  border-top: 4px solid black; }
-
-.by-line {
-  font-size: 1.3em;
-  color: #ddd;
-  margin-left: 10px; }
-
-.inline-navbar {
-  list-style: none; }
-  .inline-navbar li {
-    display: inline-block;
-    font-size: 2em;
-    margin-right: 2em; }
-
 .feature__main-image {
   width: 100%;
   margin: 0px;
@@ -98,12 +108,6 @@ footer {
   margin: 0px 6px 8px 12px; }
 
 /* Over-qualified selectors/removed h1, h2 and added __title __author/moved margin to .aside-post */
-.footer-nav {
-  text-align: center;
-  padding-top: 10px;
-  color: #FFF;
-  font-size: .5em; }
-
 /* Over-qualified/removed .footerNav transferred color and font-size to .footerNav */
 
 /*# sourceMappingURL=app.css.map */
