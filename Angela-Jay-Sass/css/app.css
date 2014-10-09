@@ -23,10 +23,10 @@ p {
 /* Moved display: and font-size: to base from .inlineNavBar li/ changed font size 1em */
 /* Layout */
 .bkg-color {
-  color: #F8F4C7; }
+  background-color: #F8F4C7; }
 
 .bkg-color-feature-2 {
-  color: #E3D0A6; }
+  background-color: #E3D0A6; }
 
 header {
   width: 100%;
@@ -56,6 +56,18 @@ footer {
   float: left; }
 
 /* moved text-align from .footnav */
+.aside-post {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  margin-left: 10px; }
+
+.aside-post__title {
+  text-transform: uppercase;
+  color: red; }
+
+.aside-post__author {
+  font-size: 1.6em; }
+
 /* Module */
 .site-nav {
   border-top: 4px solid black; }
@@ -72,7 +84,7 @@ footer {
     font-size: 2em;
     margin-right: 2em; }
 
-.feature__mainImage {
+.feature__main-image {
   width: 100%;
   margin: 0px;
   border: 1px solid black; }
@@ -86,23 +98,12 @@ footer {
   margin: 0px 6px 8px 12px; }
 
 /* Over-qualified selectors/removed h1, h2 and added __title __author/moved margin to .aside-post */
-.footerNav {
+.footer-nav {
   text-align: center;
   padding-top: 10px;
   color: #FFF;
   font-size: .5em; }
 
 /* Over-qualified/removed .footerNav transferred color and font-size to .footerNav */
-.aside-post {
-  width: 100%;
-  border-bottom: 1px solid gray;
-  margin-left: 10px; }
-
-.aside-post__title {
-  text-transform: uppercase;
-  color: red; }
-
-.aside-post__author {
-  font-size: 1.6em; }
 
 /*# sourceMappingURL=app.css.map */
