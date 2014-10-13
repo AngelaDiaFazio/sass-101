@@ -48,7 +48,6 @@ table {
 .aside-post, .aside-post__title, .aside-post__author {
   padding-top: 1rem; }
 
-/* Base */
 html {
   color: #434545;
   margin: 0 auto;
@@ -88,7 +87,6 @@ a {
 .wrapper {
   background-color: white; }
 
-/* Layout */
 header {
   padding: 12px;
   text-align: left;
@@ -97,7 +95,8 @@ header {
 
 .main-title {
   font-family: "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 6em;
+  font-size: 5em;
+  font-weight: bold;
   color: #664C4B; }
 
 .inline-navbar {
@@ -245,7 +244,6 @@ footer {
   font-size: 1.6em;
   font-weight: bold; }
 
-/* Module */
 .feature__main-image {
   width: 95%;
   margin-left: 1rem;
