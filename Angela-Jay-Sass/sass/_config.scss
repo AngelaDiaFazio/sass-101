@@ -10,16 +10,3 @@ $base-font-light-color: #FAFEFF; // off white
 $body-light: #F8F4C7; //beige
 $body-dark: #E3D0A6; //camel
 $link: #664C4B; //walnut
-// Mixin
-@mixin large-text {
-  font: {
-    family: $font-base;
-    size: 5em;
-    weight: bold;
-  }
-  color: $tertiary-color;
-}
-// Placeholder
-%aside-padding {
-  padding-top: 1rem;
-}
